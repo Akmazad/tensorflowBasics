@@ -1,3 +1,4 @@
+```python
 import tensorflow as tf
 sess = tf.InteractiveSession()
 sess = tf.Session()
@@ -24,3 +25,4 @@ sess.run(tf.global_variables_initializer())
 print(sess.run(y_true))
 print(sess.run(y_scores))
 print(sess.run(_auc))
+```
